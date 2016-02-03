@@ -38,7 +38,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-left">
-						<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="#home">Home</a></li>
 						<li><a href="#about">About Me</a>
 						<li><a href="#mywork">My Work</a></li>
 						<li><a href="#contact">Contact Me</a></li>
@@ -49,32 +49,36 @@
 		</nav>
 	</header>
 	<section class="sideBg">
-	<div class="container">
-	<div id="greyBgTitle">
-		<div class="container-fluid">
-				<h1 class="moveDown"><span id="mainTitleOne">Front-End</span>&nbsp;&nbsp;<span id="mainTitleTwo">Developer</span></h1>
-				<p>I am a <strong>self-taught</strong> website developer who has experience with HTML5, CSS3,<br/>JavaScript and JQuery.</p>
-				<ul class="list-inline moveDown" style="margin-top: 40px;">
-					<li><a href="http://twitter.com/jt_garrison"><img src="img/twitter-icon.jpg" class="imgLinkSize"/></a></li>
-					<li><a href="http://github.com/Dooboopdee"><img src="img/github-icon.jpg" class="imgLinkSize"/></a></li>
-					<li><a href="http://www.linkedin.com/in/jtgarrison"><img src="img/linkedin-icon.jpg" class="imgLinkSize"/></a></li>
-					<li><a href="http://freecodecamp.com/Dooboopdee"><img src="img/fcc-icon.jpg" class="imgLinkSize"/></a></li>
-				</ul>
-			</div>
+		<div id="home"> <!-- For navigation (smooth scrolling id) -->
+			<div class="container">
+				<div id="greyBgTitle">
+					<div class="container-fluid">
+						<h1 class="moveDown"><span id="mainTitleOne">Front-End</span>&nbsp;&nbsp;<span id="mainTitleTwo">Developer</span></h1>
+						<p>I am a <strong>self-taught</strong> website developer who has experience with HTML5, CSS3,<br/>JavaScript and JQuery.</p>
+						<ul class="list-inline moveDown" style="margin-top: 40px;">
+							<li><a href="http://twitter.com/jt_garrison"><img src="img/twitter-icon.jpg" class="imgLinkSize"/></a></li>
+							<li><a href="http://github.com/Dooboopdee"><img src="img/github-icon.jpg" class="imgLinkSize"/></a></li>
+							<li><a href="http://www.linkedin.com/in/jtgarrison"><img src="img/linkedin-icon.jpg" class="imgLinkSize"/></a></li>
+							<li><a href="http://freecodecamp.com/Dooboopdee"><img src="img/fcc-icon.jpg" class="imgLinkSize"/></a></li>
+						</ul>
+					</div>
+				</div>
 			<div class="moveDown">
 				<div id="triangleBg">
-					<div class="row">
-						<div class="col-md-4">
-							<h1 id="aboutTitle">&nbsp;&nbsp;A Little About Myself</h1>
-							<p class="aboutText moveDownLittle">&nbsp;&nbsp;&nbsp;&nbsp;Technology has always been of great interest to me. I also love to create content and solve problems. Learning to create impressive digital works is my passion - this is why I quickly gained interest in programming and design.
-							Bringing together my passion for creativity with new technologies allows me to express myself and create meaningful content for others.I am currently 19 years old and located in the rural (but beautiful) area of Northern Minnesota.</p><br/><br/><br/><br/><br/>
-						</div>
-						<div class="col-md-4">
-							<img src="img/my-pic.jpg" class="img-responsive imgCircle"/>
-						</div>
-						<div class="col-md-4">
-							<h3 id="codeTitle"><span style="color:#F08011;">while</span><span style="color:white;">(!(</span><span style="color:#0DCEDB;">succeed</span><span style="color:white;"> = </span><span style="color:#F08011;">try</span><span style="color:white;">()));</span></h3>
-							<p class="aboutText">The key to learning is to always be curious. Asking questions is how we find problems, and communication is the essence of success. I work  with my clients closely to deliver exactly what you are looking for.</p><br/><br/><br/><br/><br/>
+					<div id="about">
+						<div class="row">
+							<div class="col-md-4">
+								<h1 id="aboutTitle">&nbsp;&nbsp;A Little About Myself</h1>
+								<p class="aboutText moveDownLittle">&nbsp;&nbsp;&nbsp;&nbsp;Technology has always been of great interest to me. I also love to create content and solve problems. Learning to create impressive digital works is my passion - this is why I quickly gained interest in programming and design.
+								Bringing together my passion for creativity with new technologies allows me to express myself and create meaningful content for others.I am currently 19 years old and located in the rural (but beautiful) area of Northern Minnesota.</p><br/><br/><br/><br/><br/>
+							</div>
+							<div class="col-md-4">
+								<img src="img/my-pic.jpg" class="img-responsive imgCircle"/>
+							</div>
+							<div class="col-md-4">
+								<h3 id="codeTitle"><span style="color:#F08011;">while</span><span style="color:white;">(!(</span><span style="color:#0DCEDB;">succeed</span><span style="color:white;"> = </span><span style="color:#F08011;">try</span><span style="color:white;">()));</span></h3>
+								<p class="aboutText">The key to learning is to always be curious. Asking questions is how we find problems, and communication is the essence of success. I work  with my clients closely to deliver exactly what you are looking for.</p><br/><br/><br/><br/><br/>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -83,65 +87,70 @@
 		</div>
 		<div class="container">
 		<div class="blackBg">
-			<div style="text-align:center;">
-				<h1 class="smallerTitle moveDown" name="mywork"><span style="color:#19C2CF;">Some Of My Work</span></h1>
-			</div>
-			<div class="moveDown">
-				<div class="row">
-					<div class="col-md-4">
-						<img src="img/placeholder.png" class="imgPortSize"/>
-					</div>
-					<div class="col-md-4">
-						<img src="img/placeholder.png" class="imgPortSize"/>
-					</div>
-					<div class="col-md-4">
-						<img src="img/placeholder.png" class="imgPortSize"/>
-					</div>
+			<div id="mywork">
+				<div style="text-align:center;">
+					<h1 class="smallerTitle moveDown" name="mywork"><span style="color:#19C2CF;">Some Of My Work</span></h1>
 				</div>
-				<div class="row moveDown">
-					<div class="col-md-4">
-						<img src="img/placeholder.png" class="imgPortSize"/>
+				<div class="moveDown">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="img/jbakery-screen.png" class="imgPortSize"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/placeholder.png" class="imgPortSize"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/placeholder.png" class="imgPortSize"/>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<img src="img/placeholder.png" class="imgPortSize"/>
-					</div>
-					<div class="col-md-4">
-						<img src="img/placeholder.png" class="imgPortSize"/>
+					<div class="row moveDown">
+						<div class="col-md-4">
+							<img src="img/placeholder.png" class="imgPortSize"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/placeholder.png" class="imgPortSize"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/placeholder.png" class="imgPortSize"/>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		</div>
 		<div class="contactBg">
-			<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<h1 class="blueFont">Get In Touch</h1>
-					<form class="whiteFont moveDown">
-						<fieldset class="form-group">
-							<label for="inputName">Name</label>
-							<input type="text" class="form-control" id="inputName" placeholder="Enter your name">
-						</fieldset>
-						<fieldset class="form-group">
-							<label for="inputEmail">Email Address</label>
-							<input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address">
-						</fieldset>
-						<fieldset class="form-group">
-							<label for="inputSubj">Subject</label>
-							<input type="text" class="form-control" id="inputSubj" placeholder="Enter the subject">
-						</fieldset>
-						<fieldset class="form-group">
-							<label for="inputMsg">Message</label>
-							<textarea class="form-control" id="inputMsg" rows="6" placeholder="Describe your project"></textarea>
-						</fieldset>
-						<div class="moveDown">
-							<button type="submit" class="btn btn-primary">Submit</button>
+			<div id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<h1 class="blueFont">Get In Touch</h1>
+							<form class="whiteFont moveDown">
+								<fieldset class="form-group">
+									<label for="inputName">Name</label>
+									<input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+								</fieldset>
+								<fieldset class="form-group">
+									<label for="inputEmail">Email Address</label>
+									<input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address">
+								</fieldset>
+								<fieldset class="form-group">
+									<label for="inputSubj">Subject</label>
+									<input type="text" class="form-control" id="inputSubj" placeholder="Enter the subject">
+								</fieldset>
+								<fieldset class="form-group">
+									<label for="inputMsg">Message</label>
+									<textarea class="form-control" id="inputMsg" rows="6" placeholder="Describe your project"></textarea>
+								</fieldset>
+								<div class="moveDown">
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+							</form>
 						</div>
-				</div>
-				<div class="col-md-4">
-					<h3 class="whiteFont moveDown" style="font-family:'Pacifico',arial;">&nbsp;&nbsp;I am always looking for work and new clients!<br/><br/> - Please fill out
-					the form, and I will contact you shortly. :)</h3>
-				</div>
+					</div>
+					<div class="col-md-4">
+						<h3 class="whiteFont moveDown" style="font-family:'Pacifico',arial;">&nbsp;&nbsp;I am always looking for work and new clients!<br/><br/> - Please fill out
+						the form, and I will contact you shortly. :)</h3>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -152,5 +161,32 @@
 	</footer>
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- Smooth scrolling links -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('a[href^="#"]').on('click',function (e) {
+
+	    		e.preventDefault();
+
+	    		$('nav navbar-nav navbar-left > li').removeClass();
+
+	    		$(e).addClass('active');
+
+	    		var target = this.hash;
+	    		var $target = $(target);
+
+	    		$('html, body').stop().animate({
+
+	        		'scrollTop': $target.offset().top
+
+	    		}, 900, 'swing', function () {
+
+	        		window.location.hash = target;
+
+	    		});
+			});
+		});
+
+	</script>
 </body>
 </html>
