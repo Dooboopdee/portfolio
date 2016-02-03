@@ -41,11 +41,6 @@ ul.nav a:hover {
   color: #19C2CF !important;
 }
 
-.container {
-  margin-top: 65px;
-  width: 100%;
-}
-
 
 /*******************************
 General
@@ -53,7 +48,7 @@ General
 
 body {
   font-size: 62.5%;
-  margin-bottom: 4em;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,15 +64,16 @@ a {
   color: #14929C;
 }
 
-.pText {
-  font-family: 'Oxygen', sans-serif;
+label {
+  font-size: 2.3em;
 }
 
 #greyBgTitle {
   text-align: center;
   background-color: #F2F2F2;
-  border-bottom: 2px solid #D4D4D4;
+  border-bottom: 2px solid #19C2CF;
   padding-top: 1em;
+  margin-right: 0;
 }
 
 .moveDownLittle {
@@ -91,10 +87,6 @@ a {
 
 .moveDownMore {
   padding-top: 10em;
-}
-
-.moveDownLots {
-  padding-top: 20em;
 }
 
 #moveDownMainTitle {
@@ -112,6 +104,7 @@ a {
   margin-left: 15em;
   margin-top: 4em;
   border: 2px solid #19C2CF;
+  margin-top: 12em;
 }
 
 
@@ -127,9 +120,35 @@ Heading/Title Part
   font-family: 'Anonymous Pro', arial;
 }
 
+#triangleBg {
+  background-image: url(img/trianglebg.jpg);
+  background-color: #F3F7C8;
+  background-size: cover;
+  height: 100%;
+  margin-top: -3em;
+  margin-bottom: -5em;
+  max-width: 100%;
+  display: block;
+}
+
+#aboutTitle {
+  color: #19C2CF;
+  padding-top: 2em;
+}
+
+.aboutText {
+  color: #E8E8E8;
+  padding-bottom: 2em;
+}
+
+.sideBg {
+  background-color: #031A1C;
+}
+
 .imgLinkSize {
   height: 25%;
   width: 25%;
+  border-radius: 50%;
 }
 
 .imgPortSize {
@@ -137,12 +156,14 @@ Heading/Title Part
   width: 80%;
   border: 2px solid #19C2CF;
   border-radius: 3%;
-  margin-left: 2em;
+  margin-left: 6em;
   margin-top: 2em;
 }
 
 #codeTitle {
   font-family: 'Anonymous Pro', arial;
+  padding-top: 2.5em;
+  padding-bottom: 1.5em;
 }
 
 
@@ -153,21 +174,40 @@ Portfolio Showcase
 .blackBg {
   background-color: #1A1A1A;
   padding: 0 0 6em 0;
-  border-top: 3px solid #B3B3B3;
-  border-bottom: 3px solid #B3B3B3;
+  border-top: 3px solid #5A2980;
 }
+
+
+/*******************************
+Contact
+*******************************/
+
+.contactBg {
+  padding-top: 20em;
+  background-color: #09393D;
+  border-top: 2px solid #116396;
+}
+
+.whiteFont {
+  color: white;
+}
+
+.blueFont {
+  color: #19C2CF;
+}
+
 
 /*******************************
 Footer
 *******************************/
 
 .footer {
-  /*position: relative;*/
+  position: relative;
   border-top: 2px solid #19C2CF;
-  bottom: -3em;
+  bottom: -6em;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 10em;
   background-color: #262626;
 }
 
