@@ -155,15 +155,6 @@ Heading/Title Part
   border-radius: 50%;
 }
 
-.imgPortSize {
-  height: 80%;
-  width: 80%;
-  border: 2px solid #19C2CF;
-  border-radius: 3%;
-  margin-left: 6em;
-  margin-top: 2em;
-}
-
 #codeTitle {
   font-family: 'Anonymous Pro', arial;
   padding-top: 2.5em;
@@ -180,6 +171,36 @@ Portfolio Showcase
   background-color: #1A1A1A;
   padding: 0 0 6em 0;
   border-top: 3px solid #5A2980;
+}
+
+.imgPortSize {
+  height: 80%;
+  width: 80%;
+  border: 2px solid #19C2CF;
+  border-radius: 3%;
+  margin-left: 6em;
+  margin-top: 2em;
+}
+
+.imgTitle {
+  position: absolute;
+  top: 0;
+  margin-top: 2em;
+  margin-left: 6em;
+  border-radius: 3%;
+  height: auto;
+  width: 74%;
+  text-align: center;
+  opacity: .8;
+  display: none; /* comment this out for CSS hover */
+  /*transition: all 0.5s ease;*/
+  color: #19C2CF;
+  background-color: #0B181C;
+}
+
+.galleryText {
+  font-family: 'Pacifico', arial;
+  font-size: 3.5em;
 }
 
 
