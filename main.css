@@ -28,17 +28,17 @@ Bootstrap Overrides
   font-family: 'Exo', sans-serif;
   background-color: #262626;
   border-style: solid;
-  border-bottom: 2px solid #19C2CF;
+  border-bottom: 2px solid #1F1F1F;
   margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: #333333;
-  color: #E11BF7;
+  color: #E67E10;
 }
 
 ul.nav a:hover {
-  color: #19C2CF !important;
+  color: #E67E10 !important;
 }
 
 
@@ -49,7 +49,7 @@ General
 body {
   font-size: 62.5%;
   width: 100%;
-  background-color: #09393D;
+  background-image: radial-gradient(circle, #1F1F1F, #0A0A0A);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,11 +70,16 @@ label {
 }
 
 #greyBgTitle {
+  position: relative;
   text-align: center;
-  background-color: #F2F2F2;
-  border-bottom: 2px solid #19C2CF;
+  height: auto;
+  background-size: 100% auto;
+  background-image: url("img/fallbg.jpg");
+  background-attachment: fixed;
   padding-top: 1em;
+  margin-bottom: 0;
   margin-right: 0;
+  border-bottom: .35em solid #121212;
 }
 
 .moveDownLittle {
@@ -104,7 +109,7 @@ label {
   border-radius: 50%;
   margin-left: 15em;
   margin-top: 4em;
-  border: 2px solid #19C2CF;
+  border: 2px solid #D1AB11;
   margin-top: 12em;
 }
 
@@ -116,11 +121,17 @@ Heading/Title Part
 #mainTitleOne {
   font-family: 'Pacifico', arial;
   position: relative;
+  color: #E8E8E8;
 }
 
 #mainTitleTwo {
   font-family: 'Anonymous Pro', arial;
   position: relative;
+  color: #E8E8E8;
+}
+
+#subTitle {
+  color: #E8E8E8;
 }
 
 #triangleBg {
@@ -132,10 +143,11 @@ Heading/Title Part
   margin-bottom: -5em;
   max-width: 100%;
   display: block;
+  border-radius: 1.5%;
 }
 
 #aboutTitle {
-  color: #19C2CF;
+  color: #E3E3E3;
   padding-top: 2em;
 }
 
@@ -143,10 +155,6 @@ Heading/Title Part
   color: #E8E8E8;
   padding-bottom: 2em;
   margin-right: 1em;
-}
-
-.sideBg {
-  background-color: #031A1C;
 }
 
 .imgLinkSize {
@@ -168,15 +176,15 @@ Portfolio Showcase
 *******************************/
 
 .blackBg {
-  background-color: #1A1A1A;
+  background-color: #242424;
   padding: 0 0 6em 0;
-  border-top: 3px solid #5A2980;
+  margin-top: -3em;
 }
 
 .imgPortSize {
   height: 80%;
   width: 80%;
-  border: 2px solid #19C2CF;
+  border: 2px solid #E67E10;
   border-radius: 3%;
   margin-left: 6em;
   margin-top: 2em;
@@ -194,7 +202,7 @@ Portfolio Showcase
   opacity: .8;
   display: none; /* comment this out for CSS hover */
   /*transition: all 0.5s ease;*/
-  color: #19C2CF;
+  color: #D1AB11;
   background-color: #0B181C;
 }
 
@@ -210,18 +218,9 @@ Contact
 
 .contactBg {
   padding-top: 20em;
-  background-color: #09393D;
-  border-top: 2px solid #116396;
+  background-color: #171717;
+  border-top: 2px solid #303030;
 }
-
-.whiteFont {
-  color: white;
-}
-
-.blueFont {
-  color: #19C2CF;
-}
-
 
 /*******************************
 Footer
@@ -229,7 +228,7 @@ Footer
 
 .footer {
   position: relative;
-  border-top: 2px solid #19C2CF;
+  border-top: .25em solid #E67E10;
   bottom: -6em;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -238,5 +237,5 @@ Footer
 }
 
 .footer p {
-  color: #19C2CF;
+  color: #E67E10;
 }

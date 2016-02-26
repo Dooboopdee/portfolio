@@ -16,15 +16,18 @@
 	<link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:700' rel='stylesheet' type='text/css'>
 	<!-- Pacifico (main title) -->
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<!-- Main styling -->
-	<link href='main.css' rel='stylesheet' type='text/css'>
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- JQuery 2.20 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- JQuery UI -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<!-- Bootstrap CDN's -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- Main styling -->
+	<link href='main.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
@@ -33,13 +36,13 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-					data-target=".navbar-collapse" aria-expanded="false">
+					data-target=".navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><span style="color:#19C2CF;"><strong>Portfolio | John Garrison</strong></span></a>
+					<a class="navbar-brand" href="#"><span style="color:#E6920B;"><strong>Portfolio | John Garrison</strong></span></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse">
@@ -54,13 +57,13 @@
 			</div>
 		</nav>
 	</header>
-	<section class="sideBg">
+	<section>
 		<div id="home"> <!-- For navigation (smooth scrolling id) -->
-			<div class="container">
-				<div id="greyBgTitle">
+			<div id="greyBgTitle">
+				<div class="container">
 					<div class="container-fluid">
 						<h1 class="moveDown"><span id="mainTitleOne">Front-End</span>&nbsp;&nbsp;<span id="mainTitleTwo">Developer</span></h1>
-						<p>I am a <strong>self-taught</strong> website developer who has experience with HTML5, CSS3,<br/>JavaScript and JQuery.</p>
+						<p id="subTitle">I am a <strong>self-taught</strong> website developer who has experience with HTML5, CSS3,<br/>JavaScript and JQuery.</p>
 						<ul class="list-inline moveDown" style="margin-top: 40px;">
 							<li><a href="http://twitter.com/jt_garrison"><img src="img/twitter-icon.jpg" class="imgLinkSize"/></a></li>
 							<li><a href="http://github.com/Dooboopdee" target="_blank"><img src="img/github-icon.jpg" class="imgLinkSize"/></a></li>
@@ -70,19 +73,20 @@
 					</div>
 				</div>
 			<div class="moveDown">
-				<div id="triangleBg">
-					<div id="about">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-4">
-									<h1 id="aboutTitle">&nbsp;A Little About Myself</h1>
-									<p class="aboutText moveDownLittle">&nbsp;&nbsp;&nbsp;&nbsp;Technology has always been of great interest to me. I also love to create content and solve problems. Learning to create impressive digital works is my passion - this is why I quickly gained interest in programming and design.
-									Bringing together my passion for creativity with new technologies allows me to express myself and create meaningful content for others.I am currently 19 years old and located in the rural (but beautiful) area of Northern Minnesota.</p><br/><br/><br/><br/><br/>
-								</div>
-								<div class="col-md-4">
-									<img src="img/my-pic.jpg" class="img-responsive imgCircle"/>
-								</div>
-								<div class="col-md-4">
+				<div class="container">
+					<div id="triangleBg">
+						<div id="about">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-4">
+										<h1 id="aboutTitle">&nbsp;A Little About Myself</h1>
+										<p class="aboutText moveDownLittle">&nbsp;&nbsp;&nbsp;&nbsp;Technology has always been of great interest to me. I also love to create content and solve problems. Learning to create impressive digital works is my passion - this is why I quickly gained interest in programming and design.
+										Bringing together my passion for creativity with new technologies allows me to express myself and create meaningful content for others.I am currently 19 years old and located in the rural (but beautiful) area of Northern Minnesota.</p><br/><br/><br/><br/><br/>
+									</div>
+									<div class="col-md-4">
+										<img src="img/my-pic.jpg" class="img-responsive imgCircle"/>
+									</div>
+									<div class="col-md-4">
 									<h3 id="codeTitle"><span style="color:#F08011;">while</span><span style="color:white;">(!(</span><span style="color:#0DCEDB;">succeed</span><span style="color:white;"> = </span><span style="color:#F08011;">try</span><span style="color:white;">()));</span></h3>
 									<p class="aboutText">&nbsp;&nbsp;&nbsp;&nbsp;The key to learning is to always be curious. Asking questions is how we find problems, and communication is the essence of success. I work  with my clients closely to deliver exactly what you are looking for.</p><br/><br/><br/><br/><br/>
 								</div>
@@ -97,7 +101,7 @@
 		<div class="blackBg">
 			<div id="mywork">
 				<div style="text-align:center;">
-					<h1 class="smallerTitle moveDown" name="mywork"><span style="color:#19C2CF;">Some Of My Work</span></h1>
+					<h1 class="smallerTitle moveDown" name="mywork"><span style="color:#E6920B;">Some Of My Work</span></h1>
 				</div>
 				<div class="moveDown">
 					<div class="row">
@@ -161,9 +165,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8">
-							<h1 class="blueFont">Get In Touch</h1>
+							<h1 style="color:#E3E3E3;">Get In Touch</h1>
 							<h2 style="font-family:'Oxygen',arial;color:#E35610;font-size:3em;">This form is currently under-construction!<br/>Please contact me by email:<br/><br/>
-							<span style="color:#E38710">johntgarrison@gmail.com</span></h2>
+							<span style="color:#E38710;">johntgarrison@gmail.com</span></h2>
 							<form class="whiteFont moveDown">
 								<fieldset class="form-group">
 									<label for="inputName">Name</label>
