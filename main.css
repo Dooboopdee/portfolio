@@ -41,6 +41,10 @@ ul.nav a:hover {
   color: #F26549 !important;
 }
 
+.well {
+    background: rgba(50, 50, 50, .5);
+    border: none;
+}
 
 /*******************************
 General
@@ -121,17 +125,19 @@ Heading/Title Part
 #mainTitleOne {
   font-family: 'Pacifico', arial;
   position: relative;
-  color: #171717;
+  color: #EDEDED;
+  text-shadow: 2px 2px #454545;
 }
 
 #mainTitleTwo {
   font-family: 'Anonymous Pro', arial;
   position: relative;
-  color: #171717;
+  color: #EDEDED;
+  text-shadow: 2px 2px #454545;
 }
 
 #subTitle {
-  color: #171717;
+  color: #E3E3E3;
 }
 
 #aboutBg {
