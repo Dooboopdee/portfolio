@@ -74,7 +74,7 @@ label {
   text-align: center;
   height: auto;
   background-size: 100% auto;
-  background-image: url("img/orangebg.jpg");
+  background-image: url("img/blurbg.jpg");
   background-attachment: fixed;
   padding-top: 1em;
   margin-bottom: 0;
@@ -99,7 +99,7 @@ label {
 }
 
 .smallerTitle {
-  font-size: 4.5em;
+  font-size: 5.5em;
   text-shadow: 2px 2px #7A2033;
 }
 
@@ -109,7 +109,7 @@ label {
   border-radius: 50%;
   margin-left: 15em;
   margin-top: 4em;
-  border: 2px solid #D1AB11;
+  border: 2px solid #BF3115;
   margin-top: 12em;
 }
 
@@ -134,16 +134,14 @@ Heading/Title Part
   color: #171717;
 }
 
-#triangleBg {
-  background-image: radial-gradient(circle, #EDEDED, #C9C9C9)
-  background-color: #F3F7C8;
+#aboutBg {
+  background-color: rgba(50, 50, 50, .5);
   background-size: cover;
   height: 100%;
   margin-top: -3em;
   margin-bottom: -5em;
   max-width: 100%;
   display: block;
-  border-radius: 1.5%;
 }
 
 #aboutTitle {
@@ -232,6 +230,10 @@ Contact
 .contactBg {
   padding-top: 20em;
   background-color: #171717;
+}
+
+.whiteFont {
+  color: #EDEDED;
 }
 
 
