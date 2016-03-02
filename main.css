@@ -114,7 +114,7 @@ label {
   border-radius: 50%;
   margin-left: 15em;
   margin-top: 4em;
-  border: 2px solid #BF3115;
+  border: 2px solid #0F3947;
   margin-top: 12em;
 }
 
@@ -128,6 +128,8 @@ Heading/Title Part
   position: relative;
   color: #EDEDED;
   text-shadow: 2px 2px #454545;
+  font-size: 8em;
+  margin-top: 2.5em;
 }
 
 #mainTitleTwo {
@@ -135,6 +137,7 @@ Heading/Title Part
   position: relative;
   color: #EDEDED;
   text-shadow: 2px 2px #454545;
+  font-size: 8em;
 }
 
 #subTitle {
@@ -250,7 +253,7 @@ Footer
 
 .footer {
   position: relative;
-  border-top: .25em solid #E67E10;
+  border-top: .25em solid #F26549;
   margin-bottom: -10em;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -259,5 +262,5 @@ Footer
 }
 
 .footer p {
-  color: #E67E10;
+  color: #F26549;
 }
