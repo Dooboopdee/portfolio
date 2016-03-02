@@ -123,21 +123,13 @@ label {
 Heading/Title Part
 *******************************/
 
-#mainTitleOne {
+#mainTitle {
   font-family: 'Pacifico', arial;
   position: relative;
   color: #EDEDED;
   text-shadow: 2px 2px #454545;
   font-size: 8em;
   margin-top: 2.5em;
-}
-
-#mainTitleTwo {
-  font-family: 'Anonymous Pro', arial;
-  position: relative;
-  color: #EDEDED;
-  text-shadow: 2px 2px #454545;
-  font-size: 8em;
 }
 
 #subTitle {
