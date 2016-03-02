@@ -28,7 +28,7 @@ Bootstrap Overrides
   font-family: 'Exo', sans-serif;
   background-color: #262626;
   border-style: solid;
-  border-bottom: 2px solid #1F1F1F;
+  border-bottom: none;
   margin-bottom: 0;
 }
 
@@ -44,6 +44,7 @@ ul.nav a:hover {
 .well {
     background: rgba(50, 50, 50, .5);
     border: none;
+    box-shadow: 2.5px 2.5px rgba(56, 96, 109, .6);
 }
 
 /*******************************
