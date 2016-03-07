@@ -7,15 +7,6 @@
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="img/favicon-static.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-	<!-- FONTS -->
-	<!-- Exo (titles/subtitles) -->
-	<link href='https://fonts.googleapis.com/css?family=Exo:600' rel='stylesheet' type='text/css'>
-	<!-- Oxygen (paragraphs/body text)-->
-	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-	<!-- Anonymous Pro (main title) -->
-	<link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:700' rel='stylesheet' type='text/css'>
-	<!-- Pacifico (main title) -->
-	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<!-- JQuery 2.20 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<!-- JQuery UI -->
@@ -167,27 +158,25 @@
 					<div class="row">
 						<div class="col-md-8">
 							<h1 style="color:#E3E3E3;">Get In Touch</h1>
-							<h2 style="font-family:'Oxygen',arial;color:#E35610;font-size:3em;">This form is currently under-construction!<br/>Please contact me by email:<br/><br/>
-							<span style="color:#E38710;">johntgarrison@gmail.com</span></h2>
-							<form class="whiteFont moveDown">
+							<form class="whiteFont moveDown" action="http://formspree.io/johntgarrison@gmail.com" method="POST">
 								<fieldset class="form-group">
 									<label for="inputName">Name</label>
-									<input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+									<input name="_replyto" type="text" class="form-control" placeholder="Enter your name">
 								</fieldset>
 								<fieldset class="form-group">
 									<label for="inputEmail">Email Address</label>
-									<input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address">
+									<input name="_replyto" type="email" class="form-control" placeholder="Enter your email address">
 								</fieldset>
 								<fieldset class="form-group">
 									<label for="inputSubj">Subject</label>
-									<input type="text" class="form-control" id="inputSubj" placeholder="Enter the subject">
+									<input name="_replyto" type="text" class="form-control" placeholder="Enter the subject">
 								</fieldset>
 								<fieldset class="form-group">
 									<label for="inputMsg">Message</label>
-									<textarea class="form-control" id="inputMsg" rows="6" placeholder="Describe your project"></textarea>
+									<textarea name="_replyto" class="form-control" rows="6" placeholder="Describe your project"></textarea>
 								</fieldset>
 								<div class="moveDown">
-									<button type="submit" class="btn btn-primary" style="margin-bottom:3.5em;">Submit</button>
+									<button type="submit" value="Send" class="btn btn-primary" style="margin-bottom:3.5em;">Submit</button>
 								</div>
 							</form>
 						</div>

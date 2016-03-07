@@ -7,6 +7,20 @@ overrides
 *******************************/
 
 /*******************************
+FONTS
+*******************************/
+
+/* Exo */
+@import url('https://fonts.googleapis.com/css?family=Exo:600');
+/* Oxygen */
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+/* Anonymous Pro */
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:700');
+/* Pacifico */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+/*******************************
 Bootstrap Overrides
 *******************************/
 
