@@ -37,12 +37,12 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-left">
-					<li class="active"><a href="#home">Home</a></li>
-					<li><a href="#about">About Me</a>
-					<li><a href="#mywork">My Work</a></li>
-					<li><a href="#contact">Contact Me</a></li>
+					<li class="active"><a href="#home" class="navElement">Home</a></li>
+					<li><a href="#about" class="navElement">About Me</a>
+					<li><a href="#mywork" class="navElement">My Work</a></li>
+					<li><a href="#contact" class="navElement">Contact Me</a></li>
 				</li>
-				</ul>
+			</ul>
 			</div>
 		</div>
 	</nav>
@@ -50,7 +50,7 @@
 		<div id="home"> <!-- For navigation (smooth scrolling id) -->
 			<div id="fixedImgBg">
 				<div class="container">
-					<h1 id="mainTitle"><span style="font-family:'Pacifico',arial;font-size:1.3em;">Web</span>&nbsp;Developer</span></h1>
+					<h1 id="mainTitle">Web Developer</span></h1>
 					<div class="well well-sm">
 						<p id="subTitle"><span style="font-size:1.3em;"><strong>Welcome to my Portfolio page!</strong></span><br/><br/> This is where
 						I showcase the best of my work.<br/> I am experienced with HTML5, CSS3, Bootstrap 3,
@@ -63,7 +63,6 @@
 						<li><a href="http://www.linkedin.com/in/jtgarrison" target="_blank"><img src="img/linkedin-icon.jpg" class="imgLinkSize"/></a></li>
 						<li><a href="http://freecodecamp.com/Dooboopdee" target="_blank"><img src="img/fcc-icon.jpg" class="imgLinkSize"/></a></li>
 					</ul>
-
 			</div>
 			<div class="moveDown"></div>
 			<div id="aboutBg"> <!-- Blur the background for better readability over image -->
@@ -191,12 +190,18 @@
 	</div> <!-- End div container-fluid -->
 	</section>
 	<footer class="footer">
-		<p style="text-align:center;margin-top:1.2em;">&copy; John Garrison 2016</p>
+			<ul class="list-inline footerList">
+				<li><a href="http://www.github.com/Dooboopdee" class="navFooter">Github</a></li>
+				<li><a href="http://www.twitter.com/jt_garrison" class="navFooter">Twitter</a></li>
+				<li><a href="http://www.linkedin.com/in/jtgarrison" class="navFooter">LinkedIn</a></li>
+				<li><a href="http://www.freecodecamp/Dooboopdee" class="navFooter">FreeCodeCamp</a></li>
+			</ul>
+			<p style="text-align:center;margin-top:1.2em;">&copy; John Garrison 2016</p>
 	</footer>
 	<script type="text/javascript">
-	// Smooth scrolling links
+		// Smooth scrolling links
 		$(document).ready(function(){
-			$('a[href^="#"]').on('click',function (e) {
+			$('.navElement, navFooter').on('click',function (e) {
 
 	    		e.preventDefault();
 

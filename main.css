@@ -87,6 +87,7 @@ p {
 
 a {
   color: #258FB3;
+  text-decoration: none;
 }
 
 label {
@@ -278,13 +279,26 @@ Footer
 .footer {
   position: relative;
   border-top: .25em solid #CCCCCC;
-  margin-bottom: -10em;
+  margin-bottom: -15em;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 10em;
+  height: 15em;
   background-color: #CCCCCC;
 }
 
 .footer p {
-  color: #242424;
+  color: #616161;
+}
+
+.navFooter {
+  text-align: center;
+  font-family: 'Exo', arial;
+  font-size: 3em;
+  color: #616161;
+  margin-top: .4em;
+}
+
+.footerList {
+  text-align: center;
+  margin-top: 1.5em;
 }
