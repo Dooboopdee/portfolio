@@ -28,11 +28,11 @@ Bootstrap Overrides
   position: absolute;
   width: 100%;
   left: 0;
-  text-align: center;
+  text-align: right;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.9em;
-  font-family: 'Exo', sans-serif;
+  font-size: 1.2em;
+  font-family: 'Pacifico', sans-serif;
 }
 
 .navbar-default {
@@ -169,7 +169,6 @@ Heading/Title Part
 
 #aboutTitle {
   color: #E3E3E3;
-  padding-top: 2em;
 }
 
 .aboutText {
@@ -186,7 +185,7 @@ Heading/Title Part
 
 #codeTitle {
   font-family: 'Anonymous Pro', arial;
-  padding-top: 2.5em;
+  margin-top: 2.5em;
   padding-bottom: 1.5em;
   /*padding-right: 2em;*/
 }
