@@ -1,0 +1,50 @@
+/*******************************
+MY WEBDEV PORTFOLIO
+c 2016 John Garrison
+formsubmission.css
+Main page styling
+*******************************/
+
+/*******************************
+FONTS
+*******************************/
+
+/* Exo */
+@import url('https://fonts.googleapis.com/css?family=Exo');
+/* Oxygen */
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+/*******************************
+GENERAL
+*******************************/
+
+body {
+  background: radial-gradient(circle, #F0F0F0, #BFBFBF);
+  height: 100%;
+  width: auto;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #258FB3;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Exo', arial;
+  font-size: 4em;
+  margin-top: 2em;
+  text-align: center;
+  color: #3B3B3B;
+}
+
+p {
+  font-family: 'Oxygen', arial;
+  text-align: center;
+  color: #3B3B3B;
+}
+
+p a {
+  font-size: 1.4em;
+}
