@@ -222,6 +222,15 @@ Portfolio Showcase
 
 .galleryItem {
   margin-bottom: 3em;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Display items when 'isShowing' class is added */
+.galleryItem.isShowing {
+  opacity: 1;
+  transform: translateX(0px);
 }
 
 .imgTitle {
