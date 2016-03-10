@@ -99,7 +99,7 @@
 								<figure class="galleryItem">
 									<a href="http://codepen.io/Dooboopdee/PZyLbZ"><img src="img/webcalc.png" class="imgPortSize"/></a>
 									<figcaption class="imgTitle">
-										<a href="http://codepen.io/Dooboopdee/PZyLbZ"><h4 class="galleryText">Simple Web Calculator</h4></a>
+										<a href="http://codepen.io/Dooboopdee/details/PZyLbZ/"><h4 class="galleryText">Simple Web Calculator</h4></a>
 									</figcaption>
 								</figure>
 							</div>
@@ -208,13 +208,9 @@
 	    		var $target = $(target);
 
 	    		$('html, body').stop().animate({
-
 	        		'scrollTop': $target.offset().top
-
 	    		}, 900, 'swing', function () {
-
 	        		window.location.hash = target;
-
 	    		});
 			});
 		});
@@ -222,17 +218,19 @@
 		$(function() {
     		$('li a').click(function(e) {
         		e.preventDefault();
+
        			var $this = $(this);
+
         		$this.closest('ul').find('.active').removeClass('active');
         		$this.parent().addClass('active');
     		});
 		});
-		
+
 		// Gallery items float in when user hits scrollTop() of #fixedPortImgBg
 		$(window).scroll(function() {
 			var wScroll = $(this).scrollTop();
 
-			if(wScroll > $('#fixedPortImgBg').offset().top) {
+			if(wScroll > $('.aboutText').offset().top) {
 				$('.galleryItem').each(function(i) {
 					setTimeout(function() {
 						$('.galleryItem').eq(i).addClass('isShowing');
