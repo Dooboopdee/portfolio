@@ -40,19 +40,19 @@ Bootstrap Overrides
   text-align: left;
   color: #98CC0A;
   font-family: 'Exo', sans-serif;
-  background-color: #262626;
+  background-color: #E8E8E8;
   border-style: solid;
-  border-bottom: .15em solid #4F4F4F;
   margin-bottom: 0;
+  border-bottom: .2em solid #258FB3;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: #333333;
+  background-color: #BFBFBF;
   color: #258FB3;
 }
 
 ul.nav a:hover {
-  color: #258FB3 !important;
+  color: #1D94DE !important;
 }
 
 .well {
@@ -267,7 +267,7 @@ Contact
 
 .contactBg {
   padding-top: 20em;
-  background-color: #E8E8E8;
+  background-color: #F2F2F2;
 }
 
 .whiteFont {
