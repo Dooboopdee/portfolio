@@ -25,23 +25,16 @@ Bootstrap Overrides
 *******************************/
 
 .navbar-brand {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  text-align: right;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
   font-size: .85em;
   font-family: 'Pacifico', sans-serif;
 }
 
 .navbar-default {
   font-size: 3em;
-  text-align: left;
   color: #98CC0A;
   font-family: 'Exo', sans-serif;
   background-color: #E8E8E8;
-  border-style: solid;
   margin-bottom: 0;
   border-bottom: .2em solid #258FB3;
 }
